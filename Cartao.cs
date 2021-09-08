@@ -1,5 +1,6 @@
 class Cartao {
-
+ 
+ 
   public double saldo {get; set;}
   public double limite {get; set;}
   public bool fechada {get; set;}
