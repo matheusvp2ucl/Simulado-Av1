@@ -6,7 +6,7 @@ class Internacional : Cartao {
     taxaTransacao = 0.05;
   }
   
-  public override void debito(double valor){
+  protected override void debito(double valor){
     saldo -= (valor + (valor * taxaTransacao));
   }
 

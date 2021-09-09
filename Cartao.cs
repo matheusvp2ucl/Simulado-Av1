@@ -11,7 +11,7 @@ class Cartao {
     fechada = false;
   }
   
-  public virtual void debito(double valor){
+  protected virtual void debito(double valor){
   }
 
   public void credito(double valor){
